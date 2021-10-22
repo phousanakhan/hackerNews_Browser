@@ -18,6 +18,7 @@ struct ContentView: View {
             
             //for every single post in networkManager.posts
             List(networkManager.posts) { post in
+                //when user click on a post (the little arrow), send them to destination
                 NavigationLink(destination: DetailView(url: post.url)) {
                       HStack{
                           //use each post to create new Text object
