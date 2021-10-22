@@ -1,4 +1,4 @@
-# Clima
+# HackerNews Browser
 Created an IOS application using Swift UI that displays the latest trending article on Hacker News.
 The user can browse the article directly through the application. 
 This project is inspired by functionality of the Reddit Website. 
